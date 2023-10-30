@@ -1,121 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Bridgewater-Raritan Computer Science Club</title>
-<!-- Favicon -->
-<link href="favicon.png" rel="icon"/>
-<!-- Bootstrap CSS -->
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f1f8ff;
-        }
-
-        header {
-            background-color: #007bff;
-            color: #ffffff;
-            padding: 20px;
-            text-align: center;
-        }
-
-        #about {
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        #events {
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        #contact {
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-    </style>
-</head>
-<body>
-<!-- Header Section -->
-<header>
-<h1>Bridgewater-Raritan Computer Science Club</h1>
-<p>Welcome to our club's website!</p>
-<a class="btn btn-primary" href="leadership">Leadership</a>
-</header>
-<!-- About Section -->
-<section class="container mt-5" id="about">
-<h2>About Us</h2>
-<p>The Bridgewater-Raritan Computer Science Club (BRCS) is a student-led club that focuses on computer science. We meet after school on specific days and offer opportunities to enhance students' computer science knowledge. We have sub-groups in various fields, from AI to computer engineering, catering to all skill levels. Whether you're a novice or an experienced coder, there's something here for everyone. Join us to socialize with like-minded individuals passionate about computer science.</p>
-</section>
-<!-- Events Section -->
-<section class="container mt-5" id="events">
-<h2>Upcoming Events</h2>
-<div class="row">
-<div class="col-md-4">
-<h3>Event 1</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-</div>
-<div class="col-md-4">
-<h3>Event 2</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-</div>
-<div class="col-md-4">
-<h3>Event 3</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-</div>
-</div>
-</section>
-<!-- Contact Section -->
-<section class="container mt-5" id="contact">
-<h2>Contact Us</h2>
-<form id="contactForm">
-<div class="form-group">
-<label for="name">Name:</label>
-<input class="form-control" id="name" placeholder="Enter name" required="" type="text"/>
-</div>
-<div class="form-group">
-<label for="email">Email:</label>
-<input class="form-control" id="email" placeholder="Enter email" required="" type="email"/>
-</div>
-<div class="form-group">
-<label for="message">Message:</label>
-<textarea class="form-control" id="message" placeholder="Enter your message" required=""></textarea>
-</div>
-<button class="btn btn-primary" type="submit">Submit</button>
-</form>
-</section>
-<!-- Bootstrap & jQuery JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script>
-        $(document).ready(function() {
-            $('#contactForm').submit(function(e) {
-                e.preventDefault();
-                alert('Thank you for contacting us! We will get back to you soon.');
-            });
-        });
-    </script>
-</body>
-</html>
-
-<head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bridgewater-Raritan Computer Science Club</title>
     <!-- Favicon -->
-    <link href="favicon.png" rel="icon"/>
+    <link rel="icon" href="favicon.png">
     <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -149,114 +41,68 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
-
-        .btn-leadership {
-            background-color: #0000ff;
-            color: #ffffff;
-        }
     </style>
 </head>
-
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Bridgewater-Raritan Computer Science Club</title>
-<link href="favicon.png" rel="icon"/>
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f1f8ff;
-    }
-
-    header {
-        background-color: #007bff;
-        color: #ffffff;
-        padding: 20px;
-        text-align: center;
-    }
-
-    #about {
-        padding: 40px;
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    #events {
-        padding: 40px;
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    #contact {
-        padding: 40px;
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    #leadership {
-        background-color: #0000ff;
-    }
-</style>
-
 <body>
-<!-- Header Section -->
-<header>
-<h1>Bridgewater-Raritan Computer Science Club</h1>
-<p>Welcome to our club's website!</p>
-<a class="btn btn-primary" href="leadership">Leadership</a>
-</header>
-<!-- About Section -->
-<section class="container mt-5" id="about">
-<h2>About Us</h2>
-<p>The Bridgewater-Raritan Computer Science Club (BRCS) is a student-led club that focuses on computer science. We meet after school on specific days and offer opportunities to enhance students' computer science knowledge. We have sub-groups in various fields, from AI to computer engineering, catering to all skill levels. Whether you're a novice or an experienced coder, there's something here for everyone. Join us to socialize with like-minded individuals passionate about computer science.</p>
-</section>
-<!-- Events Section -->
-<section class="container mt-5" id="events">
-<h2>Upcoming Events</h2>
-<div class="row">
-<div class="col-md-4">
-<h3>Event 1</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-</div>
-<div class="col-md-4">
-<h3>Event 2</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-</div>
-<div class="col-md-4">
-<h3>Event 3</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-</div>
-</div>
-</section>
-<!-- Contact Section -->
-<section class="container mt-5" id="contact">
-<h2>Contact Us</h2>
-<form id="contactForm">
-<div class="form-group">
-<label for="name">Name:</label>
-<input class="form-control" id="name" placeholder="Enter name" required="" type="text"/>
-</div>
-<div class="form-group">
-<label for="email">Email:</label>
-<input class="form-control" id="email" placeholder="Enter email" required="" type="email"/>
-</div>
-<div class="form-group">
-<label for="message">Message:</label>
-<textarea class="form-control" id="message" placeholder="Enter your message" required=""></textarea>
-</div>
-<button class="btn btn-primary" type="submit">Submit</button>
-</form>
-</section>
-<!-- Bootstrap & jQuery JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script>
+    <!-- Header Section -->
+    <header>
+        <h1>Bridgewater-Raritan Computer Science Club</h1>
+        <p>Welcome to our club's website!</p>
+        <a href="leadership" class="btn btn-primary">Leadership</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5">
+        <h2>About Us</h2>
+        <p>The Bridgewater-Raritan Computer Science Club (BRCS) is a student-led club that focuses on computer science. We meet after school on specific days and offer opportunities to enhance students' computer science knowledge. We have sub-groups in various fields, from AI to computer engineering, catering to all skill levels. Whether you're a novice or an experienced coder, there's something here for everyone. Join us to socialize with like-minded individuals passionate about computer science.</p>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="container mt-5">
+        <h2>Upcoming Events</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Event 1</h3>
+                <p>Date: TBD</p>
+                <p>Location: TBD</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Event 2</h3>
+                <p>Date: TBD</p>
+                <p>Location: TBD</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Event 3</h3>
+                <p>Date: TBD</p>
+                <p>Location: TBD</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
         $(document).ready(function() {
             $('#contactForm').submit(function(e) {
                 e.preventDefault();
@@ -265,147 +111,4 @@
         });
     </script>
 </body>
-
-<header>
-  <h1>Bridgewater-Raritan Computer Science Club</h1>
-  <p>Welcome to our club's website!</p>
-  <a class="btn btn-primary" href="leadership">Leadership</a>
-</header>
-<section class="container mt-5" id="about">
-  <h2>About Us</h2>
-  <p>The Bridgewater-Raritan Computer Science Club (BRCS) is a student-led club that focuses on computer science. We meet after school on specific days and offer opportunities to enhance students' computer science knowledge. We have sub-groups in various fields, from AI to computer engineering, catering to all skill levels. Whether you're a novice or an experienced coder, there's something here for everyone. Join us to socialize with like-minded individuals passionate about computer science.</p>
-</section>
-
-<h2>About Us</h2>
-<p>The Bridgewater-Raritan Computer Science Club (BRCS) is a student-led club that focuses on computer science. We meet after school on specific days and offer opportunities to enhance students' computer science knowledge. We have sub-groups in various fields, from AI to computer engineering, catering to all skill levels. Whether you're a novice or an experienced coder, there's something here for everyone. Join us to socialize with like-minded individuals passionate about computer science.</p>
-<button style="background-color: darkblue; color: white;">Leadership</button>
-
-<section class="container mt-5" id="events">
-    <h2>Upcoming Events</h2>
-    <div class="row">
-        <div class="col-md-4">
-            <h3>Event 1</h3>
-            <p>Date: TBD</p>
-            <p>Location: TBD</p>
-        </div>
-        <div class="col-md-4">
-            <h3>Event 2</h3>
-            <p>Date: TBD</p>
-            <p>Location: TBD</p>
-        </div>
-        <div class="col-md-4">
-            <h3>Event 3</h3>
-            <p>Date: TBD</p>
-            <p>Location: TBD</p>
-        </div>
-    </div>
-</section>
-<h2>Upcoming Events</h2>
-<div class="row">
-    <div class="col-md-4">
-        <h3>Event 1</h3>
-        <p>Date: TBD</p>
-        <p>Location: TBD</p>
-    </div>
-    <div class="col-md-4">
-        <h3>Event 2</h3>
-        <p>Date: TBD</p>
-        <p>Location: TBD</p>
-    </div>
-    <div class="col-md-4">
-        <h3>Event 3</h3>
-        <p>Date: TBD</p>
-        <p>Location: TBD</p>
-    </div>
-</div>
-
-<div class="col-md-4">
-    <h3>Event 1</h3>
-    <p>Date: TBD</p>
-    <p>Location: TBD</p>
-</div>
-<h3>Event 1</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-<div class="col-md-4">
-    <h3>Event 2</h3>
-    <p>Date: TBD</p>
-    <p>Location: TBD</p>
-</div>
-<h3>Event 2</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-<div class="col-md-4">
-    <h3>Event 3</h3>
-    <p>Date: TBD</p>
-    <p>Location: TBD</p>
-</div>
-<h3>Event 3</h3>
-<p>Date: TBD</p>
-<p>Location: TBD</p>
-<section class="container mt-5" id="contact">
-    <h2>Contact Us</h2>
-    <form id="contactForm">
-        <div class="form-group">
-            <label for="name">Name:</label>
-            <input class="form-control" id="name" placeholder="Enter name" required="" type="text" />
-        </div>
-        <div class="form-group">
-            <label for="email">Email:</label>
-            <input class="form-control" id="email" placeholder="Enter email" required="" type="email" />
-        </div>
-        <div class="form-group">
-            <label for="message">Message:</label>
-            <textarea class="form-control" id="message" placeholder="Enter your message" required=""></textarea>
-        </div>
-        <button class="btn btn-primary btn-dark" type="submit">Submit</button>
-    </form>
-</section>
-
-<h2>Contact Us</h2>
-<form id="contactForm">
-  <div class="form-group">
-    <label for="name">Name:</label>
-    <input class="form-control" id="name" placeholder="Enter name" required="" type="text"/>
-  </div>
-  <div class="form-group">
-    <label for="email">Email:</label>
-    <input class="form-control" id="email" placeholder="Enter email" required="" type="email"/>
-  </div>
-  <div class="form-group">
-    <label for="message">Message:</label>
-    <textarea class="form-control" id="message" placeholder="Enter your message" required=""></textarea>
-  </div>
-  <button class="btn btn-primary btn-dark-blue" type="submit">Submit</button>
-</form>
-
-<div class="form-group">
-    <label for="name">Name:</label>
-    <input class="form-control" id="name" placeholder="Enter name" required="" type="text"/>
-</div>
-<label for="name">Name:</label>
-<input class="form-control" id="name" placeholder="Enter name" required="" type="text"/>
-<div class="form-group">
-    <label for="email">Email:</label>
-    <input class="form-control" id="email" placeholder="Enter email" required="" type="email"/>
-</div>
-<label for="email">Email:</label>
-<input class="form-control" id="email" placeholder="Enter email" required="" type="email"/>
-
-<button class="btn btn-primary" style="background-color: darkblue;">Leadership</button>
-
-<div class="form-group">
-    <label for="message">Message:</label>
-    <textarea class="form-control" id="message" placeholder="Enter your message" required=""></textarea>
-</div>
-<label for="message">Message:</label>
-<textarea class="form-control" id="message" placeholder="Enter your message" required=""></textarea>
-<button class="btn btn-primary" type="submit">Submit</button>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-#leadershipButton {
-    background-color: darkblue;
-    color: white;
-}
-
+</html>
