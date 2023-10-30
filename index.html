@@ -21,21 +21,7 @@
             text-align: center;
         }
 
-        #about {
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        #events {
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        #contact {
+        .section {
             padding: 40px;
             background-color: #ffffff;
             border-radius: 10px;
@@ -46,18 +32,17 @@
 <body>
     <!-- Header Section -->
     <header>
-        <h1>Bridgewater-Raritan Computer Science Club</h1>
-        <p>Welcome to our club's website!</p>
+        <h1>Welcome to the Bridgewater-Raritan Computer Science Club</h1>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="container mt-5">
+    <section class="section container mt-5" id="about">
         <h2>About Us</h2>
-        <p>BRCS, in short, is a computer science-based student-led club. We meet after school on (x days) and have opportunities to enhance students’ computer-science knowledge. We have sub-groups in different fields ranging from AI to computer engineering, all of which can develop students’ skills. These groups are open to all difficulty levels, from people that have never touched a computer besides the school’s or ones that have been coding their whole life. There will always be something that fits for every individual. In addition, this club gives students a chance to socialize with others who are passionate about computer science, which prior to this club would be a rare occasion.</p>
+        <p>The Bridgewater-Raritan Computer Science Club (BRCS) is a student-led club that focuses on computer science. We meet after school on specific days and offer opportunities to enhance students' computer science knowledge. We have sub-groups in various fields, from AI to computer engineering, catering to all skill levels. Whether you're a novice or an experienced coder, there's something here for everyone. Join us to socialize with like-minded individuals passionate about computer science.</p>
     </section>
 
     <!-- Events Section -->
-    <section id="events" class="container mt-5">
+    <section class="section container mt-5" id="events">
         <h2>Upcoming Events</h2>
         <div class="row">
             <div class="col-md-4">
@@ -79,16 +64,16 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container mt-5">
+    <section class="section container mt-5" id="contact">
         <h2>Contact Us</h2>
         <form id="contactForm">
             <div class="form-group">
                 <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
             </div>
             <div class="form-group">
                 <label for="message">Message:</label>
@@ -111,3 +96,4 @@
     </script>
 </body>
 </html>
+
