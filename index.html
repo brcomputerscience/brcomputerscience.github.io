@@ -34,21 +34,30 @@
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
-
-        #contact {
-            padding: 40px;
-            background-color: #ffffff;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
     </style>
 </head>
 <body>
+
+       <!-- Navbar (sit on top) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">BRCS</a>
+        <!-- Toggle button for small screens -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="leadership">Leadership</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
     <!-- Header Section -->
     <header>
         <h1>Bridgewater-Raritan Computer Science Club</h1>
         <p>Welcome to our club's website!</p>
-        <a href="leadership" class="btn btn-primary">Leadership</a>
     </header>
 
     <!-- About Section -->
@@ -59,56 +68,33 @@
 
     <!-- Events Section -->
     <section id="events" class="container mt-5">
-        <h2>Upcoming Events</h2>
+        <h2>Events</h2>
         <div class="row">
             <div class="col-md-4">
-                <h3>Event 1</h3>
-                <p>Date: TBD</p>
-                <p>Location: TBD</p>
+                <h3>BRHacks 2023 (Winner)</h3>
+                <p>Date: 10/1/2024</p>
+                <p>Location: Bridgewater-Raritan High School</p>
             </div>
             <div class="col-md-4">
-                <h3>Event 2</h3>
-                <p>Date: TBD</p>
-                <p>Location: TBD</p>
+                <h3>RidgeHacks 2024 (Winner)</h3>
+                <p>Date: 4/6/2024</p>
+                <p>Location: Ridge High School</p>
             </div>
             <div class="col-md-4">
-                <h3>Event 3</h3>
-                <p>Date: TBD</p>
-                <p>Location: TBD</p>
+                <h3>MontyHacks VII</h3>
+                <p>Date: 5/18/2024</p>
+                <p>Location: Montgomery High School</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container mt-5">
-        <h2>Contact Us</h2>
-        <form id="contactForm">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea class="form-control" id="message" placeholder="Enter your message" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-    </section>
-
+<!-- Footer -->
+<footer class="bg-light text-black text-center p-4">
+    &copy; 2024 Bridgewater-Raritan Computer Science. All rights reserved.
+</footer>
+    
     <!-- Bootstrap & jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            $('#contactForm').submit(function(e) {
-                e.preventDefault();
-                alert('Thank you for contacting us! We will get back to you soon.');
-            });
-        });
-    </script>
 </body>
 </html>
