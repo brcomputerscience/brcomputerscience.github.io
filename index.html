@@ -1,11 +1,14 @@
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRCS | Home</title>
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png">
-    <!-- Tailwind CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         header {
             background-color: #007bff;
@@ -14,7 +17,21 @@
             text-align: center;
         }
 
-        #about, #what, #events {
+        #about {
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        #what {
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        #events {
             padding: 40px;
             background-color: #ffffff;
             border-radius: 10px;
@@ -23,7 +40,8 @@
     </style>
 </head>
 <body>
-    <!-- Navbar (sit on top) -->
+
+       <!-- Navbar (sit on top) -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">BRCS</a>
         <!-- Toggle button for small screens -->
@@ -41,40 +59,40 @@
     
     <!-- Header Section -->
     <header>
-        <h1 class="text-2xl font-bold">Bridgewater-Raritan Computer Science Club</h1>
+        <h1><strong>Bridgewater-Raritan Computer Science Club</strong></h1>
         <p>Bridgewater-Raritan Middle School's Computer Science Club</p>
     </header>
 
     <!-- About Section -->
     <section id="about" class="container mt-5">
-        <h2 class="text-xl font-bold">About Us</strong></h2>
+        <h2><strong>About Us</strong></h2>
         <p>The Bridgewater-Raritan Computer Science Club (BRCS) is a student-led club that focuses on computer science and programming topics. We meet after-school on Tuesdays and offer opportunities to enhance students' computer science knowledge. We have lessons and opportunities in various fields, from Python to Artificial Intelligence and Machine Learning, catering to all skill levels. Whether you're a novice or an experienced coder, there's something for everyone. Join us to socialize, learn, and collaborate with like-minded individuals passionate about computer science.</p>
     </section>
 
     <!-- What We Do Section -->
     <section id="what" class="container mt-5">
-        <h2 class="text-xl font-bold">Meetings</h2>
+        <h2><strong>Meetings</strong></h2>
         <p>The Bridgewater-Raritan Computer Science Club hosts meetings after school every <strong><i>Tuesday</i></strong>, from <strong>2:30</strong> to <strong>3:45</strong> in <strong>room E-2</strong>. We have over 50 members working on projects and lessons in groups, each equipped with leaders who have demonstrated proficiency in what they're teaching through hackathons, programming competitions, and projects. Our hackathon-winning instructors teach members how to write code, think critically, and work together cohesively. Our groups range from Python and Java all the way to Computer Engineering and C++. We also occasionally host tournaments, where members can show off their coding and computer science trivia knowledge.</p>
     </section>
 
     <!-- Events Section -->
     <section id="events" class="container mt-5">
-        <h2 class="text-xl font-bold">Hackathons BRCS has participated in</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div>
-                <h3 class="text-lg font-bold">BRHackathon 2023</h3>
+        <h2><strong>Hackathons BRCS has participated in</strong></h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3>BRHackathon 2023</h3>
                 <p>Date: 10/1/2024</p>
                 <p>Location: Bridgewater-Raritan High School</p>
                 <p>Rank: 2nd Place Overall (out of 14 HS teams)</p>
             </div>
-            <div>
-                <h3 class="text-lg font-bold">RidgeHacks 2024</h3>
+            <div class="col-md-4">
+                <h3>RidgeHacks 2024</h3>
                 <p>Date: 4/6/2024</p>
                 <p>Location: Ridge High School</p>
                 <p>Rank: 2nd Place Overall (out of 22 HS teams)</p>
             </div>
-            <div>
-                <h3 class="text-lg font-bold">MontyHacks VII</h3>
+            <div class="col-md-4">
+                <h3>MontyHacks VII</h3>
                 <p>Date: 5/18/2024</p>
                 <p>Location: Montgomery High School</p>
                 <p>Rank: 3rd Place Overall (out of 21 HS teams)</p>
@@ -83,14 +101,16 @@
     </section>
 
     <!-- Add space here -->
-    <div class="mt-12"></div>
+    <div style="margin-top: 50px;"></div>
 
-    <!-- Footer -->
-    <footer class="bg-light text-black text-center p-4">
-        &copy; 2024 Bridgewater-Raritan Computer Science Club. All rights reserved.
-    </footer>
+
+<!-- Footer -->
+<footer class="bg-light text-black text-center p-4">
+    &copy; 2024 Bridgewater-Raritan Computer Science Club. All rights reserved.
+</footer>
     
-    <!-- jQuery & Bootstrap JS (not needed for Tailwind, but keeping for other functionality if needed) -->
+    <!-- Bootstrap & jQuery JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+</html>
