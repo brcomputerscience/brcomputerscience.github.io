@@ -1,1 +1,182 @@
-LOCK INNNNN
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="keywords" content="Bridgewater-Raritan Computer Science Club">
+    <title>BRCS | Meetings</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://brcomputerscience.github.io/images/brcs-favicon.png">
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+        .card-img-container {
+            height: 250px;
+            overflow: hidden;
+            border-radius: 25px;
+        }
+
+        .card-img-container img {
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+        }
+
+        .text-lg {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 27px;
+        }
+
+        .text-base {
+            font-family: 'Epilogue';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22.5px;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-100 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <a class="text-xl font-bold" href="#">BRCS</a>
+            <button class="lg:hidden p-2 text-gray-500 focus:outline-none focus:ring" id="navbar-toggle">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+            <div class="hidden lg:flex space-x-4" id="navbar-menu">
+                <a class="text-gray-700 hover:text-gray-900" href="https://brcomputerscience.github.io/meetings">Meetings</a>
+            </div>
+            <div class="hidden lg:flex space-x-4" id="navbar-menu">
+                <a class="text-gray-700 hover:text-gray-900" href="https://brcomputerscience.github.io/leadership">Leadership</a>
+            </div>
+        </div>
+    </nav>
+
+<!-- Meetings Section -->
+<section id="activities" class="bg-white py-10">
+    <div class="container mx-auto">
+        <div class="w-full p-4">
+            <div class="bg-blue-500 rounded-lg shadow-lg overflow-hidden">
+                <div class="card-img-container">
+                    <img src="https://brcomputerscience.github.io/images/blog.jpg" alt="Python">
+                </div>
+                <div class="p-4">
+                    <h5 class="text-3xl font-bold mb-2">Python</h5>
+                    <p class="text-lg mb-4">Led by Alex Sheng and Shubham Roy-Choudhury</p>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full p-4">
+            <div class="bg-amber-600 rounded-lg shadow-lg overflow-hidden">
+                <div class="card-img-container">
+                    <img src="https://brcomputerscience.github.io/images/blog.jpg" alt="Java">
+                </div>
+                <div class="p-4">
+                    <h5 class="text-3xl font-bold mb-2">Java</h5>
+                    <p class="text-lg mb-4">Led by Jay Fang</p>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full p-4">
+            <div class="bg-pink-500 rounded-lg shadow-lg overflow-hidden">
+                <div class="card-img-container">
+                    <img src="https://brcomputerscience.github.io/images/blog.jpg" alt="C++">
+                </div>
+                <div class="p-4">
+                    <h5 class="text-3xl font-bold mb-2">C++</h5>
+                    <p class="text-lg mb-4">Led by Dhruv Rakhade and Charlie Yang</p>
+                    <p class="text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+    <!-- Activities Cards Section -->
+    <section id="activities" class="bg-white py-10">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold text-center mb-8">Activities</h2>
+            <div class="flex flex-wrap">
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                        <div class="card-img-container">
+                            <img src="https://brcomputerscience.github.io/images/brcs-coding.png" alt="Programming Languages">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="text-xl font-bold mb-2">Programming Languages</h5>
+                            <p class="text-gray-700 mb-4">Join us for weekly workshops and interesting lectures about Python, Java, and C++!</p>
+                            <a href="https://brcomputerscience.github.io/meetings" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                        <div class="card-img-container">
+                            <img src="https://brcomputerscience.github.io/images/brcs-leaders.png" alt="Leadership">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="text-xl font-bold mb-2">Leadership Team</h5>
+                            <p class="text-gray-700 mb-4">Our founders and leaders consist of distinguished hackathon winners and proficient programmers.</p>
+                            <a href="https://brcomputerscience.github.io/leadership" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 p-4">
+                    <div class="bg-gray-100 rounded-lg shadow-lg overflow-hidden">
+                        <div class="card-img-container">
+                            <img src="https://brcomputerscience.github.io/images/brcs-hackathons.png" alt="Hackathons">
+                        </div>
+                        <div class="p-4">
+                            <h5 class="text-xl font-bold mb-2">Hackathons</h5>
+                            <p class="text-gray-700 mb-4">Our successful hackathon team competes in various hackathons across New Jersey.</p>
+                            <a href="https://sigmacompsci.github.io" class="inline-block bg-blue-500 text-white px-4 py-2 rounded-lg">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Call to Action -->    
+<section id="cta" class="cta bg-white p-8">
+  <div class="header text-center mb-4">
+    <h1 class="text-4xl font-bold">Join Now</h1>
+  </div>
+  <div class="cta-email text-center">
+    <p class="mb-4 text-lg">Fill out the form below to show interest in BRCS!</p>
+    <div class="cta-submit">
+      <div class="cta-email-btn-div">
+        <a href="https://docs.google.com/forms" class="cta-email-btn inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Fill Out Form</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Add space here -->
+    <div class="mt-6"></div>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-black text-center p-4">
+        &copy; 2024 Bridgewater Raritan Computer Science Club. All rights reserved.
+    </footer>
+
+    <!-- Tailwind CSS JavaScript (for the toggle button) -->
+    <script>
+        document.getElementById('navbar-toggle').addEventListener('click', function () {
+            const menu = document.getElementById('navbar-menu')
+            menu.classList.toggle('hidden')
+        })
+    </script>
+</body>
+</html>	
